@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.bgimg {
+  background-image: url('./thefourthpart.png');
+  height: 100%;
+  background-position: center;
+  background-size: clamp(10px, 100%, 10000px) contain;
+  background-repeat: no-repeat;
+  background-color: #FAF9F6;
+  position: relative;
+  color: #fffff4;
+  font-family: "Palatino", Serif, monospace;
+  font-size: 20px;
+}
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+<body>
+<link rel="preload" as="image" href="./thefourthpart.png">
+<div class="bgimg">
+  <!--
+  <div class="middle">
+    <h1><br/><br/><br/><br/>THE<br/>FOURTH<br/>PART</h1>
+  </div>
+  -->
+</div>
+</body>
+</html>
